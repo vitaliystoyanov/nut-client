@@ -1,0 +1,13 @@
+{
+    "appId": "org.networkupstools",
+    "productName": "NUT",
+    "extends": null,
+    "files": ["build/**/*"],
+    "directories": {
+        "output": "dist/${version}",
+        "buildResources": "src/main/icons"
+    },
+    "mac": {
+        "category": "public.app-category.utilities"
+    }
+}
